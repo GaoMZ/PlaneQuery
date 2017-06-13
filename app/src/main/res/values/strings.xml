@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">PlaneQuery</string>
+
+    <!--LoginActivity-->
+    <string name="input_username">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">没有账号，注册一个>></string>
+    <string name="forget_password">重置密码</string>
+    <string name="loginProgress_title">登录中</string>
+    <string name="loginProgress_message">登录中，马上就好</string>
+    <string name="login_success">登录成功!</string>
+    <string name="login_fail">登录失败</string>
+    <string name="username_is_null">对不起，用户名不能为空</string>
+    <string name="password_is_null">对不起，密码不能为空</string>
+
+    <!--RegisterActivity-->
+    <string name="register_email">请输入邮箱</string>
+    <string name="register_telephone">请输入手机号码</string>
+    <string name="telephone_is_wrong">对不起，请输入正确手机号</string>
+    <string name="register_set_username">请输入用户名：</string>
+    <string name="register_set_password">设置密码：</string>
+    <string name="register_button">注册</string>
+    <string name="register_upload_message">上传数据中</string>
+    <string name="register_wait">请稍等&#8230;</string>
+    <string name="register_success">注册成功,正在登录</string>
+    <string name="register_fail">注册失败</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="password_is_different">密码不一致</string>
+
+    <!--ResetPwActivity-->
+    <string name="input_email">请输入注册时的邮箱</string>
+    <string name="confirm_button">确定</string>
+    <string name="email_is_wrong">请输入正确邮箱地址</string>
+
+    <!--MainActivity-->
+    <string name = "spin_prompt" > 请选择城市 </string >
+
+    <!--底部导航栏样式-->
+    <!-- 自定义底部导航栏样式 -->
+    <style name="main_tab_bottom">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#777777</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/tabs_btn_bg</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">1.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <string name="prompt">提示</string>
+    <string name="sure_exit">确定要退出吗?</string>
+    <string name="cancel">取消</string>
+</resources>

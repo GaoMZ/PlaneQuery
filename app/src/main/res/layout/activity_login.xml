@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_login_background" >
+
+    <EditText
+        android:id="@+id/etusername"
+        style="@style/LoginEditText"
+        android:hint="@string/input_username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/etpassword"
+        style="@style/LoginEditText"
+        android:hint="@string/input_password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:layout_below="@+id/etusername"
+        android:layout_alignLeft="@+id/etusername"
+        android:layout_alignStart="@+id/etusername"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dip"
+        android:layout_height="45dip"
+        android:background="@drawable/bg_button"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/etpassword"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="@string/register"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_below="@+id/login"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="@string/forget_password"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_below="@+id/register"
+        android:layout_toRightOf="@+id/login"
+        android:layout_toEndOf="@+id/login"/>
+
+    <Button
+        android:id="@+id/managerLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#00000000"
+        android:text="管理员入口"
+        android:layout_below="@+id/forgetPassword"
+        android:layout_alignLeft="@+id/forgetPassword"
+        android:layout_alignStart="@+id/forgetPassword"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="航班查询系统"
+        android:textSize="36sp"/>
+
+</RelativeLayout>

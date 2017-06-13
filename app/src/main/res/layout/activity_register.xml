@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="250dip"
+        android:layout_height="300dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dip"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="@string/register_set_username"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="@string/register_set_password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_comfirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="@string/register_email"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="@string/register_telephone"
+            android:maxLines="1" />
+        <EditText
+            android:id="@+id/et_IDCARD"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:hint="输入身份证号"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_button"
+        android:text="@string/register_button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/back_login"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_button"
+        android:text="返回"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</LinearLayout>

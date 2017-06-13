@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register" >
+
+
+    <EditText
+        android:id="@+id/resetpwd_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:hint="@string/input_email"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/confirm_button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/resetpwd_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <Button
+        android:id="@+id/return_login"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:text="返回"
+        android:layout_below="@+id/resetpwd_email"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp" />
+
+</RelativeLayout>
